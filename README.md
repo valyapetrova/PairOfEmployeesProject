@@ -10,14 +10,14 @@ _EmpID, ProjectID, DateFrom, DateTo_ <br />
 1. CRUD for Employees
 2. CRUD for Projects
 3. DATABASE keeping all of the application's info, updating after every post/get method<br />
-   -Employees table<br />
-   -Projects table<br />
-   -work_history<br />
-4.FileService - reading CSV file from the requirement.<br />
+- Employees table<br />
+- Projects table<br />
+- work_history  <br />
+4. FileService - reading CSV file from the requirement.<br />
 However, the core of my application is stored in the DB and driven by queries to it, so i don't really use the file.
-In my opinion DB is better and more secure for the purpose of the project. It is also simplifying the code.
+In my opinion DB is better and more secure for the purpose of the project. It is also simplifying the code.<br />
 5. Pair of employees filter - created with DB Query located in WorkHistoryRepository<br />
-6.NULL == today - if the post method receives NULL date, it will transform it to today's date by default. <br />
+6. NULL == today - if the post method receives NULL date, it will transform it to today's date by default. <br />
 
 ## API 
 -Employee "/employee"<br />
