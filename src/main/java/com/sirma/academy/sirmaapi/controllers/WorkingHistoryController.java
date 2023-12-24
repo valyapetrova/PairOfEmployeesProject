@@ -34,24 +34,10 @@ public class WorkingHistoryController {
         return new ResponseEntity<>(workingHistoryService.getAllWorkingHistory(), HttpStatus.OK);
     }
 
-
-//    @GetMapping("/getlongestpair")
-//    public ResponseEntity<List<WorkingHistory>> getLongestPair() {
-//        fileService.readFile();
-//        return new ResponseEntity<>(workingHistoryService.workedPairsForLongestPeriod(), HttpStatus.OK);
-//    }
-//
-//
-//    @GetMapping("/getlongestpairv2")
-//    public ResponseEntity<List<WorkingHistory>> getLongestPairv2() {
-//        fileService.readFile();
-//        return new ResponseEntity<>(workingHistoryService.workedPairsForLongestPeriodv2(), HttpStatus.OK);
-//    }
-
-    @GetMapping("/getlongestpairv3")
-    public ResponseEntity<List<String>> getLongestPairv3() {
-        System.out.println(workingHistoryService.workedPairsForLongestPeriodv3());
-        return new ResponseEntity<>(workingHistoryService.workedPairsForLongestPeriodv3(), HttpStatus.OK);
+    @GetMapping("/getlongestpair")
+    public ResponseEntity<List<String>> getLongestPair() {
+        System.out.println(workingHistoryService.workedPairsForLongestPeriod());
+        return new ResponseEntity<>(workingHistoryService.workedPairsForLongestPeriod(), HttpStatus.OK);
     }
 
         @PostMapping("/edit/{id}")

@@ -79,6 +79,6 @@ public interface WorkHistoryRepository extends JpaRepository<WorkingHistory, Lon
                     "ORDER BY\n" +
                     "    total_duration DESC;\n",
     nativeQuery = true)
-    public List<String> workedPairsForLongestPeriodv3();
+    public List<String> workedPairsForLongestPeriod();
 
 }

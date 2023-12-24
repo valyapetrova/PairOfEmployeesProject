@@ -44,8 +44,8 @@ public class WorkingHistoryService {
         }
     }
 
-    public List<String> workedPairsForLongestPeriodv3() {
-        return workHistoryRepository.workedPairsForLongestPeriodv3();
+    public List<String> workedPairsForLongestPeriod() {
+        return workHistoryRepository.workedPairsForLongestPeriod();
     }
 
 }
