@@ -19,8 +19,8 @@ In my opinion DB is better and more secure for the purpose of the project. It is
 5. Pair of employees filter - created with DB Query located in WorkHistoryRepository
 
 ## API 
--Employee "/employee"
-/create - creating employee
+-Employee "/employee"<br />
+/create - creating employee<br />
 /get/{id} - get employee by id
 /get/all - get list of all employees
 /delete/{id} - deleting employee by id
