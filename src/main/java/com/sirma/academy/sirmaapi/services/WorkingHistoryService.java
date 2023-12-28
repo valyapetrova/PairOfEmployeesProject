@@ -17,17 +17,12 @@ public class WorkingHistoryService {
     public WorkingHistoryService(WorkHistoryRepository workHistoryRepository) {
         this.workHistoryRepository = workHistoryRepository;
     }
-
     public void saveWorkingHistory(WorkingHistory workingHistory) {
         if (workingHistory.getDateTo() == null) {
             workingHistory.setDateTo(LocalDate.now());
         }
-        if (workingHistory.getDateFrom() == null) {
-            workingHistory.setDateFrom(LocalDate.now());
-        }
         workHistoryRepository.save(workingHistory);
     }
-
     public List<WorkingHistory> getAllWorkingHistory() {
         return workHistoryRepository.findAll();
     }
