@@ -18,6 +18,7 @@ However, the core of my application is stored in the DB and driven by queries to
 In my opinion DB is better and more secure for the purpose of the project. It is also simplifying the code.<br />
 5. Pair of employees filter - created with DB Query located in WorkHistoryRepository<br />
 6. NULL == today - if the post method receives NULL date, it will transform it to today's date by default. <br />
+7. Supporting different date formats - 2023/28/12 updated <br />
 
 ## API 
 -Employee "/employee"<br />
