@@ -9,7 +9,7 @@ _EmpID, ProjectID, DateFrom, DateTo_ <br />
 ## Features 
 1. CRUD for Employees
 2. CRUD for Projects
-3. DATABASE keeping all of the application's info, updating after every post/get method<br />
+3. Postgre DATABASE for persistence, keeping all of the application's info, updating after every post/get method (ERD is visible at png file 'PostgreTables.png')'<br />
 - Employees table<br />
 - Projects table<br />
 - work_history  <br />
@@ -32,7 +32,6 @@ Similar to employee.<br />
 
 -WorkHistory
 
-... Тази страница е в ремонт. Предстои качване на бд информацията и редакции по кода..
 
 
 
